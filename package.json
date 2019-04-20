@@ -1,0 +1,29 @@
+{
+  "name": "bartolinoblog",
+  "version": "1.0.0",
+  "description": "bartolinoblog  files",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BartekPog/BartolinoBlog.git"
+  },
+  "author": "Bartłomiej Pogodziński",
+  "license": "ISC",
+  "engines": {
+    "node": "10.13.0"
+  },
+  "bugs": {
+    "url": "https://github.com/BartekPog/BartolinoBlog/issues"
+  },
+  "homepage": "https://github.com/BartekPog/BartolinoBlog#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.13"
+  }
+}

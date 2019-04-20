@@ -1,0 +1,18 @@
+<%- include("partials/head.ejs") -%>
+
+
+  <div class="p-box">
+      <h1><%= post.title %> </h1>
+      <div class="p-par">
+        <p><%- post.content %></p>
+      </div>
+      <% if( kolejny !=="-1"){ %>
+        <a href="/posts/<%=kolejny%>"><button type="button" class="btn btn-lg btn-outline-light">Czytaj Dalej</button></a>
+
+      <%} else { %>
+        <a href="/list"><button type="button" class="btn btn-lg btn-outline-light">Powrót Do Listy</button></a>
+      <%}%>
+
+  </div>
+
+<%- include("partials/foot.ejs") -%>

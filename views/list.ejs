@@ -1,0 +1,8 @@
+<%- include("partials/head.ejs") -%>
+<div class="p-box ">
+  <% posts.forEach(function(post){ %>
+    <a href="/posts/<%=post.title%>"><button type="button" class="btn btn-lg btn-outline-light btn-lista"><%=post.title%></button></a> <br />
+  <% }); %>
+</div>
+
+<%- include("partials/foot.ejs") -%>

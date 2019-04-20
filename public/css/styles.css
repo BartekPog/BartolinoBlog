@@ -1,0 +1,103 @@
+/* LISTA KOLORÓW
+#222831
+#393e46
+#00adb5
+#b53000
+#eeeeee
+*/
+
+body{
+  background-color:#222831;
+  color:#eeeeee ;
+  height: 100%;
+  text-align:center;
+}
+h1{
+  color: #00adb5;
+  font-size:4.4em;
+  line-height: 1.6;
+}
+p{
+  margin:2% 0;
+}
+strong, #rzeczy:hover{
+  color: #00adb5;
+}
+textarea, input[type="text"]{
+  width:100%;
+}
+p a{
+  color:#b53000;
+  font-weight: bold;
+}
+a:hover{
+  color:#00adb5;
+  text-decoration:none;
+}
+.container-fluid{
+  width:70%;
+}
+.navbar{
+  background-color: #222831;
+  padding-top: 14px;
+}
+.navbar-nav {
+  margin: 0 0 0 auto;
+}
+.btn:hover{
+  background-color: #00adb5;
+  border-color: #00adb5;
+  color:#fff;
+}
+.stopka{
+  padding:14px 0 20px;
+  z-index:-1;
+}
+/* Landing */
+.mid-box{
+  background-color:#222831;
+  margin:22% auto 2%;
+}
+.mid-par{
+  padding:0 26% 2%;
+}
+/* Posty */
+.p-box {
+  background-color:#222831;
+  margin:8% auto ;
+}
+.p-par{
+  font-size: 1.3em;
+  line-height: 2;
+  padding:2% 20%;
+  text-align:justify;
+}
+/* LISTA */
+.btn-lista{
+  font-size:3em;
+  margin:2%;
+}
+
+@media  (max-width : 1200px) {
+  h1{
+    font-size: 3em;
+  }
+  .container-fluid{
+    width:95%;
+  }
+  .mid-box{
+    margin-bottom:20%;
+  }
+  .p-box{
+    margin-bottom:20%;
+  }
+  .p-par{
+    line-height: 1.3;
+  }
+  .p-par, .mid-par, .p-box, .mid-box{
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+  }
+}
